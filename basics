@@ -129,5 +129,94 @@ class Calculation
         }
     }
 }
+7)
+
+
+/* 
+class Example{
+    public static void main(String args[]){
+        int[] arr={1,4,6,3,7};
+        logic(arr);
+
+    }
+    public static void logic(int[] arr){
+
+        int temp =0;
+        for(int i=0; i<arr.length; i++){
+            for(int j=i+1; j<arr.length; j++){
+                if(arr[i]>arr[j]){
+                    temp =arr[i];
+                    arr[i]=arr[j];
+                    arr[j]=temp;
+                }
+            }
+        }
+        System.out.println(arr[arr.length-2]);
+    }
+    
+}
+*/
+
+8)
+
+class Chips
+{
+    public static void main(String[] args) {
+        int arr[] = {10,20,30,40,50};
+        int i,temp;
+        System.out.println("Original array: ");
+        for (i=0;i<arr.length;i++){
+            System.out.println(arr[i]);
+        }
+        temp = arr[0];
+        for (i=0;i<arr.length-1;i++){
+            arr[i] = arr[i+1];
+        }
+        arr[arr.length-1] = temp;
+
+        System.out.println("\n Left Shifted Array: ");
+        for(i=0;i<arr.length;i++){
+            System.out.println(arr[i]);
+        }
+    }
+}
+
+9)
+
+import java.util.*;
+class MyClass{
+    public static void main(String args[]){
+        int arr[] = {3, 0, 0, 1, 7, 0, 5, 0, 2};
+        int i, pos = 0;
+        int len = arr.length;
+        int temp[] = new int[len];
+        for(i = 0; i<arr.length; i++){
+            if(arr[i] != 0) {
+                temp[pos] = arr[i];
+                pos++;
+            }
+        }
+        for(i = 0; i<arr.length;i++) System.out.print(temp[i]+" ");
+    }
+}
+*/
+
+10)
+
+import java.util.*;
+class MyClass{
+    public static void main(String args[]){
+        int arr[] = {2,2,9,8,1,9,1};
+        int i, j, count, res = 0;
+        for(i = 0; i<arr.length; i++){
+            count = 0;
+            for(j = 0; j<arr.length; j++){
+                if(arr[i] == arr[j]) count++;
+            }
+            if (count != 2) res = arr[i];
+        }
+        System.out.println(res);
+    }
+}
 
 
