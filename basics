@@ -307,5 +307,40 @@ class MyClass
 
     }
 }
+15)string
+
+import java.io.*;
+import java.util.Scanner;
+class MyClass
+{
+    public static void main(String[] args) {
+    String a="tutor";
+    String b="tutor";
+    
+    System.out.println("A="+a);
+    System.out.println("B="+b);
+
+    System.out.println("A Hashcode="+a.hashCode());
+    System.out.println("B Hashcode="+b.hashCode());
+    }
+}
+
+16)
+import java.io.*;
+import java.util.Scanner;
+class MyClass
+{
+    public static void main(String[] args) {
+    String a="tutor";
+    String b="tutor";
+    System.out.println("Equals="+a.equals(b));
+    System.out.println("Equals Ignore case="+a.equalsIgnoreCase(b));
+
+    System.out.println("Length="+a.length());
+    System.out.println("charAt="+.charAt(0));
+    System.out.println("Uppercase="+a.toUpperCase());
+    System.out.println("Lowercase="+a.toLowerCase());
+    }
+}
 
 
