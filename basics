@@ -344,3 +344,717 @@ class MyClass
 }
 
 
+import java.util.Scanner;
+
+
+
+
+
+/*import java.io.*;
+import java.util.*;
+class Add{
+
+    public static void main(String[] args) {
+        double tam,eng,mat,sci,soc,total,percentage;
+        Scanner s=new Scanner(System.in);
+        System.out.println("Enter the marks:");
+        tam=s.nextDouble();
+        Scanner a=new Scanner(System.in);
+        System.out.println("Enter the marks:");
+        eng=a.nextDouble();
+        Scanner b=new Scanner(System.in);
+        System.out.println("Enter the marks:");
+        mat=b.nextDouble();
+        Scanner c=new Scanner(System.in);
+        System.out.println("Enter the marks:");
+        sci=c.nextDouble();
+        Scanner d=new Scanner(System.in);
+        System.out.println("Enter the marks:");
+        soc=d.nextDouble();
+        total = tam+eng+mat+sci+soc;
+        System.out.println("Total marks:"+total);
+        percentage = total/5;
+        System.out.println("Percentage:"+percentage);
+    }
+    
+}
+
+import java.io.*;
+import java.util.*;
+class Add{
+
+    public static void main(String[] args) {
+        double tam,eng,mat,sci,soc,total,percentage;
+        Scanner s=new Scanner(System.in);
+        System.out.println("Enter the marks:");
+        tam=s.nextDouble();
+        eng=s.nextDouble();
+        mat=s.nextDouble();
+        sci=s.nextDouble();
+        soc=s.nextD80ouble();
+        total = tam+eng+mat+sci+soc;
+        System.out.println("Total marks:"+total);
+        percentage = total/5;
+        System.out.println("Percentage:"+percentage);
+    }
+}
+
+import java.io.*;
+import java.util.*;
+class Add{
+    public static void main(string[] args) {
+        Double f,c;
+        Scanner a=new Scanner(System.in);
+        f=a.nextDouble();
+        c=(f-32)*(5.0/9.0);
+        System.out.println("farenheit:"+f);
+        System.out.println("celsisus:"+c);
+    }
+}
+ 
+//Assignment operator
+class assignment{
+    public static void main(String[] args) {
+        int a=10;
+        a+=10;
+        System.out.println("value of a="+a);
+        a-=10;
+        System.out.println("value of a="+a);
+    }
+}
+
+//Relational operator
+class Relational
+{
+    public static void main(String[] args) {
+        int a,b;
+        a=10;
+        b=5;
+        System.out.println("\n Greater than="+(a>b));
+        System.out.println("\n Lesser than="+(a<b));
+    }
+}
+
+//Logical operator
+class Logical {
+    public static void main(String[] args) 
+    {
+        
+        int a;
+        a = 85;
+        System.out.println("\nLogical AND="+(a>35&&a<=100));
+        a = 32;
+        System.out.println("\nLogical AND="+(a>35&&a<=100));
+
+    }
+}
+
+class Logical
+{
+    public static void main(String[] args) {
+        int a=101;
+        System.out.println("\n Logical OR="+(a>35||a<=100));
+    }
+}
+
+class Logical
+{
+    public static void main(String[] args) {
+        int a=32;
+        System.out.println("\nLogical not="+!(a>35));
+    }
+}
+
+// increment/decrement
+
+class Logical
+{
+    public static void main(String[] args) {
+        int a=1;
+        System.out.println("\nPreIncrement="+(++a));
+        System.out.println("\nPostIncrement="+(a++));
+        System.out.println("\nvalue inside a="+a);
+    }
+}
+
+//Bitwise
+class Logical
+{
+    public static void main(String[] args) {
+        int a=10,b=11;
+        System.out.println("\nBitwise AND="+(a&b));
+    }
+}
+
+class Logical
+{
+    public static void main(String[] args) {
+    int a=25,b=45;
+    System.out.println("\nBitwise OR="+(a|b));
+}}
+
+class Logical
+{
+    public static void main(String[] args) {
+        int a=25,b=45;
+        System.out.println("\nBitwise XOR="+(a^b));
+    }
+}
+
+class Logical
+{
+    public static void main(String[] args) {
+        int a=25;
+        System.out.println("bitwise not="+~a);
+    }
+}
+
+class Logical
+{
+    public static void main(String[] args) {
+        int a=16;
+        int b=a<<2;
+        System.out.println("bitwise left shift="+b);
+    
+    }
+}
+
+class Logical
+{
+    public static void main(String[] args) {
+        int a=16;
+        int b=a>>2;
+        System.out.println("bitwise left shift="+b);
+    
+    }
+}
+// swap numbers without using third variable
+class Swap
+{
+    public static void main(String[] args) {
+        int a , b;
+        a=10;
+        b=15;
+        a=a+b;
+        b=a-b;
+        a=a-b;
+        System.out.println("a="+a);
+        System.out.println("b="+b);
+    }
+}
+
+// minus two numbers without using minus operator
+class Logical
+{
+    public static void main(String[] args) {
+        int a,b,c;
+        a=5;
+        b=2;
+        c=(a+(~b))+1;
+        System.out.println("C="+c);
+    }
+}
+
+1) if statement:
+              
+            if (condition) {
+            statement 1;
+            }
+
+
+class Student
+{
+    public static void main(String[] args) {
+        int x=10;
+        int y=12;
+        if(x+y > 20) {
+        System.out.println("x + y greather than 20");
+        }
+    }
+}
+
+
+    class Student
+    {
+        public static void main(String[] args) {
+            int x=1;
+            int y=12;
+            if(x+y < 10) {
+            System.out.println("x + y lesser than 10");
+            }
+            else {
+                System.out.println("x + y greater than 10");
+            }
+        }
+    }
+
+
+class Add
+{
+    public static void main(String[] args) {
+        double a;
+        Scanner s=new Scanner(System.in);
+        System.out.println("Enter the marks:");
+        a=s.nextDouble();
+        if (a%2 == 0) {
+            System.out.println("It is even");
+        }
+        else {
+            System.out.println("it is odd");
+        }
+    }
+}
+
+
+class Add
+{
+    public static void main(String[] args) {
+        double a;
+        Scanner s=new Scanner(System.in);
+        System.out.println("Enter the Year:");
+        a =s.nextDouble();
+        if (a%4 == 0) {
+            System.out.println("It is leap year");
+        }
+        else {
+            System.out.println("it is not leap year");
+        }
+    }
+}
+
+class Student
+{
+    public static void main(String[] args) {
+        String city = "Delhi";
+        if(city == "Meerut") {
+            System.out.println("city is meerut");
+        }
+        else if(city == "Noida") {
+            System.out.println("city is noida");
+        }
+        else if(city == "Agra"){
+            System.out.println("city is Agra");
+        }
+        else {
+            System.out.println(city);
+        }
+    }
+}
+
+class Studwent
+{
+    public static void main(String[] args) {
+        String address = "Delhi, India";
+        if(address.endsWith("India"))
+        {
+            if(address.contains("Meerut"))
+            {
+                System.out.println("Your city is Meerut");
+            }
+            else if(address.contains("Noida"))
+            {
+                System.out.println("Your city is Noida");
+            }
+            else 
+            {
+                System.out.println(address.split(",")[0]);
+            }
+        }
+        else
+        {
+            System.out.println("You are not living in India");
+        }
+    }
+}
+
+class Add
+{
+    public static void main(String[] args) {
+        int num = 2;
+        switch(num) {
+            case 0:
+            System.out.println("number is 0");
+            break;
+            case 1:
+            System.out.println("number is 1");
+            break;
+            case 2:
+            System.out.println("number is 5");
+            break;
+            default:
+            System.out.println(num);
+        }
+    }
+}
+
+class Add
+{
+    public static void main(String[] args) {
+        char n;
+        System.out.println("Enter the word:");
+        Scanner s=new Scanner(System.in);
+        n=s.next().charAt(0);
+        if(n =='a'||n =='e'||n =='i'||n =='o'||n =='u') 
+        System.out.println("vowels");
+    
+        else 
+            System.out.println("consosant");
+        }
+    }
+
+class Add
+{
+    public static void main(String[] args) {
+        double m1,m2,m3,m4,m5,total,percentage;
+        Scanner s=new Scanner(System.in);
+        System.out.println("Enter the marks:");
+        m1= s.nextDouble();
+        m2= s.nextDouble();
+        m3= s.nextDouble();
+        m4= s.nextDouble();
+        m5= s.nextDouble();
+        total=m1+m2+m3+m4+m5;
+        System.out.println("total marks:"+total);
+        percentage=total/5;
+        System.out.println("Average:"+percentage);
+        if(m1>=35){
+            System.out.println("m1 greater than 35");
+        }
+        else
+        {
+            System.out.println("m1 lesser than 35");
+        }
+        if(m2>=35){
+            System.out.println("m2 greater than 35");
+        } 
+        else
+        {
+            System.out.println("m2 lesser than 35");
+        }
+         if(m3>=35){
+            System.out.println("m3 greater than 35");
+        } 
+        else
+        {
+            System.out.println("m3 lesser than 35");
+        }
+        if(m4>=35){
+            System.out.println("m4 greater than 35");
+        } 
+        else
+        {
+            System.out.println(" m4 lesser than 35");
+        }
+         if(m5>=35){
+            System.out.println("m5 greater than 35");
+        } 
+        else
+        {
+            System.out.println("m5 lesser than 35");
+        }
+        if(m1>=90 && m1<=100){
+            System.out.println("A");
+        }
+        else if (m1>=80 && m1<=89){
+            System.out.println("B");
+        }
+        else if (m1>=70 && m1<=79){
+            System.out.println("C");
+        }
+        else if(m1>=35 && m1<=69){
+            System.out.println("D");
+        }
+        else {
+            System.out.println("Fail");
+        }
+        if(m2>=90 && m2<=100){
+            System.out.println("A");
+        }
+        else if (m2>=80 && m2<=89){
+            System.out.println("B");
+        }
+        else if (m2>=70 && m2<=79){
+            System.out.println("C");
+        }
+        else if(m2>=35 && m2<=69){
+            System.out.println("D");
+        }
+        else {
+            System.out.println("Fail");
+        }
+        if(m3>=90 && m3<=100){
+            System.out.println("A");
+        }
+        else if (m3>=80 && m3<=89){
+            System.out.println("B");
+        }
+        else if (m3>=70 && m3<=79){
+            System.out.println("C");
+        }
+        else if(m3>=35 && m3<=69){
+            System.out.println("D");
+        }
+        else {
+            System.out.println("Fail");
+        }
+        if(m4>=90 && m4<=100){
+            System.out.println("A");
+        }
+        else if (m4>=80 && m4<=89){
+            System.out.println("B");
+        }
+        else if (m4>=70 && m4<=79){
+            System.out.println("C");
+        }
+        else if(m4>=35 && m4<=69){
+            System.out.println("D");
+        }
+        else {
+            System.out.println("Fail");
+        }
+        if(m5>=90 && m5<=100){
+            System.out.println("A");
+        }
+        else if (m5>=80 && m5<=89){
+            System.out.println("B");
+        }
+        else if (m5>=70 && m5<=79){
+            System.out.println("C");
+        }
+        else if(m5>=35 && m5<=69){
+            System.out.println("D");
+        }
+        else {
+            System.out.println("Fail");
+        }
+        
+    }
+}
+
+
+class Add
+{
+    public static void main(String[] args) {
+      double value;
+      Scanner s=new Scanner(System.in);
+      System.out.println("Enter the value:");
+      value = s.
+    }
+}
+
+import java.util.Scanner;
+public class ArmstrongNumberChecke1r {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        int number = scanner.nextInt();
+        int originalNumber = number;
+        int sum = 0;
+        int digits = Integer.toString(number).length();
+        while (number != 0) {
+            int digit = number % 10;
+            sum += Math.pow(digit, digits);
+            number /= 10;
+        }
+        if (sum == originalNumber) { 
+            System.out.println(originalNumber + " is an Armstrong number.");
+        } else {
+            System.out.println(originalNumber + " is not an Armstrong number.");
+        }
+    }
+}
+
+// import java.util.Scanner;
+
+// public class ArmstrongNumberChecker {
+//     public static void main(String[] args) {
+//         Scanner scanner = new Scanner(System.in);
+//         System.out.print("Enter a number: ");
+//         int number = scanner.nextInt();
+        
+//         if (isArmstrong(number)) {
+//             System.out.println(number + " is an Armstrong number.");
+//         } else {
+//             System.out.println(number + " is not an Armstrong number.");
+//         }
+        
+//         scanner.close();
+//     }
+
+//     public static boolean isArmstrong(int number) {
+//         int originalNumber = number;
+//         int numberOfDigits = String.valueOf(number).length();
+//         int sum = 0;
+        
+//         while (number != 0) {
+//             int digit = number % 10;
+//             sum += Math.pow(digit, numberOfDigits);
+//             number /= 10;
+//         }
+        
+//         return sum == originalNumber;
+//     }
+// }
+
+
+import java.util.Scanner;
+
+public class ArmstrongNumberChecker {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a binary number: ");
+        String binaryString = scanner.nextLine();
+        
+        try {
+            int decimal = convertBinaryToDecimal(binaryString);
+            System.out.println("The decimal equivalent of binary " + binaryString + " is: " + decimal);
+        } catch (NumberFormatException e) {
+            System.out.println("Invalid binary number.");
+        }
+        
+        scanner.close();
+    }
+
+    public static int convertBinaryToDecimal(String binaryString) {
+        int decimal = 0;
+        int length = binaryString.length();
+        
+        for (int i = 0; i < length; i++) {
+            char binaryChar = binaryString.charAt(length - 1 - i);
+            if (binaryChar == '1') {
+                decimal += Math.pow(2, i);
+            } else if (binaryChar != '0') {
+                throw new NumberFormatException("Invalid binary number");
+            }
+        }
+        
+        return decimal;
+    }
+}
+
+
+class Add
+{
+    public static void main(String[] args) {
+        int i,a,b,value;
+        Scanner s=new Scanner(System.in);
+        System.out.println("enter the choice:");
+        i = s.nextInt();
+        System.out.println("enter two numbers");
+        a = s.nextInt();
+        b = s.nextInt();
+        switch(i) {
+            case 0:
+            System.out.println("Addition");
+            value = a + b;
+            System.out.println(value);
+            break;
+            case 1:
+            System.out.println("Subtraction");
+            value = a - b;
+            System.out.println(value);
+            break;
+            case 2:
+            System.out.println("Multiplication");
+            value = a*b;
+            System.out.println(value);
+            break;
+            case 3:
+            System.out.println("Division");
+            value = a/b;
+            System.out.println(value);
+            break;
+            default:
+            System.out.println("Invalid");
+        }
+    }
+}
+
+
+import java.io.*;
+
+class Student
+{
+    public static void main(String[] args) {
+        int i ;
+        Scanner s=new Scanner(System.in);
+        System.out.println("enter the days:");
+        i = s.nextInt();
+        if(i<=5){
+            System.out.println("Fine is 50 paise");
+        }
+        else if(i>6 && i<=10){
+            System.out.println("Fine is 1 rupees");
+        }
+        else if(i>10 && i<30){
+            System.out.println("Fine is 5 rupees");
+        }
+        else  {
+            System.out.println("your membership is cancelled");
+        }
+    }
+}
+
+class Student
+{
+    public static void main(String[] args) {
+        System.out.println("Menu card"); 
+        System.out.println("TEA           rs:10");
+        System.out.println("COFFEE        rs:15");
+        System.out.println("COLD COFFEE   rs:25");
+        System.out.println("MILK SHAKE    rs:50");
+        int i,a,total;
+        Scanner s=new Scanner(System.in);
+        System.out.println("enter the item");
+        i=s.nextInt();
+        switch(i) {
+            case 0:
+            System.out.println("TEA");            
+            System.out.println("enter the quantity");
+            a=s.nextInt(); 
+            total=10*a;
+            System.out.println("Total="+total);
+            break;
+            case 1:
+            System.out.println("COFFEE");         
+            System.out.println("enter the quantity");
+            a=s.nextInt();
+            total=15*a;
+            System.out.println("Total="+total);
+            break;   
+            case 2:
+            System.out.println("COLD COFFEE");
+            System.out.println("enter the quantity");
+            a=s.nextInt();
+            total=25*a;
+            System.out.println("Total="+total);
+            break;  
+            case 4:
+            System.out.println("MILK SHAKE");
+            System.out.println("enter the quantity");
+            a=s.nextInt();
+            total=50*a;
+            System.out.println("Total="+total);
+            break;       
+        }
+    }
+}
+
+class Add
+
+    public static void main(String[] args) {
+        int a;
+        double b;
+   {      String c;
+        Scanner s=new Scanner(System.in);
+        a=s.nextInt();
+        b=s.nextDouble();
+        c=s.next();
+        System.out.println("String:"+c);
+        System.out.println("Double:"+b);
+        System.out.println("Int:"+a);
+    }
+}
+
+
+
