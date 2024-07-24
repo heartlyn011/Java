@@ -1,1 +1,25 @@
 
+import java.io.*;
+import java.util.*;
+public class Box
+{
+    int length;
+    int breadth;
+    int height;
+    public int volume()
+    {
+        return length*breadth*height;
+    }
+}
+class demo 
+{
+    public static void main(String[] args)
+    {
+        Box a=new Box();
+       
+        a.length=10;
+        a.breadth=20;
+        a.height=30;
+        System.out.println("The volume of the Box"+a.volume());
+    }
+}
