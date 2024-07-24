@@ -1,12 +1,9 @@
-
-import java.io.*;
-import java.util.*;
-public class Box
+class Box
 {
     int length;
     int breadth;
     int height;
-    public int volume()
+    int volume()
     {
         return length*breadth*height;
     }
@@ -20,6 +17,7 @@ class demo
         a.length=10;
         a.breadth=20;
         a.height=30;
-        System.out.println("The volume of the Box"+a.volume());
+        System.out.println("The volume of the Box: "+a.volume());
     }
 }
+
